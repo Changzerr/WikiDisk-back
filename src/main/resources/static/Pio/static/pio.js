@@ -19,7 +19,7 @@ var Paul_Pio = function (prop) {
         menu: document.querySelector(".pio-container .pio-action"),
         canvas: document.getElementById("pio"),
         body: document.querySelector(".pio-container"),
-        root: "localhost:8082"
+        root: document.location.protocol + "//" + document.location.hostname + ":8282/"
     };
 
     // 工具通用函数
